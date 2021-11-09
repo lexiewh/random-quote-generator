@@ -1,6 +1,10 @@
+import QuoteBox from "./QuoteBox"
+
 function App() {
   return (
-    <h1>Quote Generator</h1>
+    <div>
+      <QuoteBox />
+    </div>
   )
 }
 

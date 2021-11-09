@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    border: 1px solid black;
+}
