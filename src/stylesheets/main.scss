@@ -6,6 +6,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #CCCCFF;
 }
 
 #quote-box {
@@ -13,5 +14,29 @@ html, body {
     flex-direction: column;
     justify-content: center;
     width: 600px;
-    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#text {
+    text-align: center;
+}
+
+#author {
+    text-align: right;
+}
+
+#btn-col {
+    justify-content: flex-end;
+    display: flex;
+}
+
+#new-quote {
+    background-color: #CCCCFF;
+    border: none;
+}
+
+#new-quote:hover {
+    filter: brightness(105%);
 }
