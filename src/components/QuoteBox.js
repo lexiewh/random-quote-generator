@@ -46,7 +46,7 @@ function QuoteBox(props) {
                         <h3 id="text">{quote}</h3>
                     </Row>
                     <Row>
-                        <p id="author">{author}</p>
+                        <p id="author">- {author}</p>
                     </Row>
                     <Row>
                         <Col><a className="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a></Col>
