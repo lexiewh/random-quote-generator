@@ -49,7 +49,7 @@ function QuoteBox(props) {
                         <p id="author">- {author}</p>
                     </Row>
                     <Row>
-                        <Col><a className="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a></Col>
+                        <Col><a id="tweet-quote" href="https://twitter.com/intent/tweet">Tweet</a></Col>
                         <Col id="btn-col"><Button id="new-quote" onClick={handleClick}>New quote</Button></Col>
                     </Row>
                 </div>}
