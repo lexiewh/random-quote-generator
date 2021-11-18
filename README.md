@@ -1,4 +1,4 @@
-# Translate React App
+# Random Quote Generator
 
 Deployment Guide
 
@@ -6,7 +6,7 @@ Deployment Guide
 
 ### Description
 
-An application to translate any English text to Italian!
+An application to generate a random quote. Requirements from [Free Code Camp](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
 
 ## Prerequisites
 
